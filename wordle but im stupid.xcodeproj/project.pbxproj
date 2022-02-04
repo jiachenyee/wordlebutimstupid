@@ -11,6 +11,7 @@
 		32CB74A027AD5BB8005853DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB749F27AD5BB8005853DC /* ContentView.swift */; };
 		32CB74A227AD5BB8005853DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CB74A127AD5BB8005853DC /* Assets.xcassets */; };
 		32CB74A527AD5BB8005853DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CB74A427AD5BB8005853DC /* Preview Assets.xcassets */; };
+		32CB74AD27AD5C23005853DC /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB74AC27AD5C23005853DC /* Words.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		32CB74A127AD5BB8005853DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32CB74A427AD5BB8005853DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32CB74A627AD5BB8005853DC /* wordle_but_im_stupid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wordle_but_im_stupid.entitlements; sourceTree = "<group>"; };
+		32CB74AC27AD5C23005853DC /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				32CB749D27AD5BB8005853DC /* wordle_but_im_stupidApp.swift */,
 				32CB749F27AD5BB8005853DC /* ContentView.swift */,
+				32CB74AC27AD5C23005853DC /* Words.swift */,
 				32CB74A127AD5BB8005853DC /* Assets.xcassets */,
 				32CB74A627AD5BB8005853DC /* wordle_but_im_stupid.entitlements */,
 				32CB74A327AD5BB8005853DC /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CB74AD27AD5C23005853DC /* Words.swift in Sources */,
 				32CB74A027AD5BB8005853DC /* ContentView.swift in Sources */,
 				32CB749E27AD5BB8005853DC /* wordle_but_im_stupidApp.swift in Sources */,
 			);
